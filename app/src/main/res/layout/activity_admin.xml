@@ -4,6 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bedstemorbolle"
     tools:context=".AdminActivity">
+
+
+    <TextView
+        android:id="@+id/textView_nyFasBolle"
+        android:layout_width="297dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="56dp"
+        android:text="Funktioner til Admins:"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Fastelavnbutton2"
+        android:layout_width="295dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="58dp"
+        android:text="Tilfoej ny Fastelavnsbolle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_nyFasBolle" />
+
+    <Button
+        android:id="@+id/Tilfoejfjernbruger"
+        android:layout_width="295dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="56dp"
+        android:text="Tilfoej/fjern en bruger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fastelavnbutton2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

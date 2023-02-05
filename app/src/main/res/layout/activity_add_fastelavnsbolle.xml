@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFastelavnsbolleActivity">
+
+
+    <TextView
+        android:id="@+id/textView_nyFasBolle2"
+        android:layout_width="214dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:text="Tilfoej en ny faste- lavnsbolle til kata- loget:"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/Type_Semler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Type_Semler"
+        android:layout_width="163dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_nyFasBolle2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enkeltbolle" />
+
+    <EditText
+        android:id="@+id/fastelavnsbolleNavn"
+        android:layout_width="336dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="43dp"
+        android:hint="Navnet paa Fastelavnsbollen"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Type_Semler" />
+
+    <EditText
+        android:id="@+id/fastelavnsbolleType"
+        android:layout_width="336dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="43dp"
+        android:hint="Type af Fastelavnsbolle"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fastelavnsbolleNavn" />
+
+    <EditText
+        android:id="@+id/fastelavnsbolleSmag"
+        android:layout_width="336dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="43dp"
+        android:hint="Smage og fyld"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fastelavnsbolleType" />
+
+    <EditText
+        android:id="@+id/fastelavnsbolleBageri"
+        android:layout_width="336dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="43dp"
+        android:hint="Hvilket bageri staar bag"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fastelavnsbolleSmag" />
+
+    <Button
+        android:id="@+id/TilfoejBolleButton"
+        android:layout_width="329dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="45dp"
+        android:text="Tilfoej ny fastelavnsbolle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fastelavnsbolleBageri" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

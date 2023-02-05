@@ -8,9 +8,51 @@
 
     <Button
         android:id="@+id/logud_Knap"
-        android:layout_width="140dp"
-        android:layout_height="93dp"
+        android:layout_width="169dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:text="Log ud"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="526dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/OmOsbutton2"
+        app:layout_constraintTop_toBottomOf="@+id/Inspiration" />
+
+    <Button
+        android:id="@+id/FindBageriButton"
+        android:layout_width="330dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="40dp"
+        android:text="Find Nærmeste Fastelavnsbolle!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/OmOsbutton2"
+        android:layout_width="169dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="16dp"
+        android:text="Om os"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Inspiration" />
+
+    <ImageView
+        android:id="@+id/Inspiration"
+        android:layout_width="335dp"
+        android:layout_height="297dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FindBageriButton"
+        app:srcCompat="@drawable/enkeltbolle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

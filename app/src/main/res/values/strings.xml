@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">Fastelavnsbolle</string>
+    <string name="title_activity_menu" translatable="false">MenuActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">SmartBakery</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
 
+    <string name="menu_samarbejdspartnere">Samarbejdspartnere</string>
+    <string name="menu_om_smartpark">Om SmartBakery</string>
+    <string name="menu_indstillinger">Indstillinger</string>
+    <string name="Log_ind_knap">Log ind/registrere dig med Google</string>
+    <string name="fab_find_bageri">Find Bageri Tæt På Dig</string>
+    <string name="find_bageri_knap">Find Bageri</string>
+    <string name="Om_Os_del1">SmartBakery er en applikation, som skal gøre det lettere at købe fastelavnsboller</string>
+    <string name="Om_Os_del2">SmartBakery har base i Aarhus og har 2 ansatte. SmartBakery blev grundlagt i start 2022</string>
+    <string name="om_os">Om os</string>
+    <string name="sign_out_knap">Log ud</string>
+    <string name="smartbakery" translatable="false">SmartBakery</string>
+    <string name="dansk_flag">Dansk flag</string>
+    <string name="engelsk_flag">Engelsk flag</string>
+    <string name="vaelg_sprog">Vælg Sprog</string>
+    <string name="menu_find_bakery">Find Bageri</string>
+    <string name="smartbakery_logo" translatable="false">Logo</string>
+    <string name="indtast_en_slutadresse_og_find_bageri">Indtast en adresse og find et bageri tæt på</string>
+    <string name="Singed_Out">Logget Ud</string>
+    <string name="floating_action_button">Floating Action Button</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
