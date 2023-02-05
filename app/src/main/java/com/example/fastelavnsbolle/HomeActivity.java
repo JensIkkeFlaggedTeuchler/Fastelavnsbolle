@@ -10,6 +10,7 @@ import android.widget.Button;
 public class HomeActivity extends AppCompatActivity {
 
     private Button LogudKnap;
+    private Button FindBageriKnap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,17 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        FindBageriKnap = (Button) findViewById(R.id.FindBageriButton);
+        FindBageriKnap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(HomeActivity.this, FindBageriActivity.class);
                 startActivity(intent);
 
             }

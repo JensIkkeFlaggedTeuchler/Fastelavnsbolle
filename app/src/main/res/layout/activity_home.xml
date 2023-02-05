@@ -13,4 +13,12 @@
         android:text="Log ud"
         tools:layout_editor_absoluteX="191dp"
         tools:layout_editor_absoluteY="526dp" />
+
+    <Button
+        android:id="@+id/FindBageriButton"
+        android:layout_width="135dp"
+        android:layout_height="112dp"
+        android:text="Find Nærmeste Fastelavnsbolle!"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="291dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
