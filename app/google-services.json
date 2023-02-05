@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087748827582",
+    "project_id": "fastelavnsbolleapp",
+    "storage_bucket": "fastelavnsbolleapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087748827582:android:02751cebc239e856b9f1ef",
+        "android_client_info": {
+          "package_name": "com.example.fastelavnsbolle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087748827582-631jl06er1i85lembe33pt6kleo9bbag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsyBO038SaE0vJx5f2ECrmI8bHSldLRMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087748827582-631jl06er1i85lembe33pt6kleo9bbag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

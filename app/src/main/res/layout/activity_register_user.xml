@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bedstemorbolle"
+    tools:context=".RegisterUserActivity">
+
+    <ImageView
+        android:id="@+id/imageView_forsideLogo"
+        android:layout_width="404dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fblogo" />
+
+    <EditText
+        android:id="@+id/editTextOpretBrugerEmailAddress"
+        android:layout_width="276dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="69dp"
+        android:ems="10"
+        android:hint="Indtast e-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOpretBrugerNavn" />
+
+    <EditText
+        android:id="@+id/editTextOpretBrugerPassword"
+        android:layout_width="277dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:hint="Indtast adgangskode"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOpretBrugerEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextOpretBrugerNavn"
+        android:layout_width="277dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="67dp"
+        android:ems="10"
+        android:hint="Indtast navn"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_forsideLogo" />
+
+    <Button
+        android:id="@+id/button_opretBruger2"
+        android:layout_width="320dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="55dp"
+        android:text="Opret bruger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOpretBrugerPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="254dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="79dp"
+        android:gravity="center"
+        android:text="OPRET BRUGER"
+        android:textColor="#4CAF50"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

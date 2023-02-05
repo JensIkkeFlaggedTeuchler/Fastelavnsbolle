@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bedstemorbolle"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/adminButton"
+        android:layout_width="189dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="111dp"
+        android:text="Jeg er admin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_logInd2" />
+
+    <ImageView
+        android:id="@+id/imageView_forsideLogo"
+        android:layout_width="404dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fblogo" />
+
+
+    <EditText
+        android:id="@+id/editTextLogindEmailAddress"
+        android:layout_width="277dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Indtast e-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextLogindPassword"
+        android:layout_width="253dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="79dp"
+        android:ems="10"
+        android:hint="Indtast adgangskode"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLogindEmailAddress" />
+
+    <Button
+        android:id="@+id/button_logInd2"
+        android:layout_width="252dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="76dp"
+        android:text="Log ind"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextLogindPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="254dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="LOGINDSIDE"
+        android:textColor="#4CAF50"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextLogindEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_forsideLogo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
