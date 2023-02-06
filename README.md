@@ -9,7 +9,7 @@ Det lykkedes ikke at integrere samme view-model som fra undervisningen, så grun
 
 
 ## User-stories:
-- 1	As a User, I want to see the nearest bakeries, so that I can know where to buy fastelavnsboller
+- [ ] 1	As a User, I want to see the nearest bakeries, so that I can know where to buy fastelavnsboller
 - 2	As a User, I want to be able to scroll/browse pictures of fastelavnsboller, so that I can see who bakes them
 - 3	As a User, I want directions to a selected bakery, so that I can travel there
 - 4	As a User, I want to see the ratings of the fastelavnsboller, so that I know if they are worth the price
