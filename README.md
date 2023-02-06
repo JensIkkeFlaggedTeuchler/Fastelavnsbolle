@@ -15,4 +15,9 @@ Det lykkedes ikke at integrere samme view-model som fra undervisningen, så grun
 - [ ] 4	As a User, I want to see the ratings of the fastelavnsboller, so that I know if they are worth the price
 - [ ] 5	As a User, I want to be able to log in, so that my information is stored
 - [ ] 6	As a User, I want to be able to change my user information, so that my e-mail and password is up to date
-
+- [ ] 7	As a User, I want to easily navigate the application, so that my time is efficiently
+- [ ] 8	As a User, I want to see pictures of fastelavnsboller, so that I get inspired to buy/eat them
+- [ ] 9	As a Admin, I want to edit the users, so that I can remove unwanted users and help them edit their information
+- [ ] 10	As the App owner, I want to be able to create admin logins for my staff, so that I can provide the best user experience
+- [ ] 11	As a Admin, I want to be able to add hyped fastelavnsboller into the apps database, so that it can be extracted to something else
+- [ ] 12	As a Admin, I want to be able to extract the hyped fastelavnsboller from the database, so that it can be shown in a list to the users, giving them inspiration, munchies and information about the fastelavnsbolle
