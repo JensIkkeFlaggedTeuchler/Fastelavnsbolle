@@ -7,10 +7,7 @@ Man logger ind som enten admin eller bruger, hvilket er koblet til firebase. Dog
 
 Det lykkedes ikke at integrere samme view-model som fra undervisningen, så grundet tidsfrist gik vi med en anden løsning.
 
-Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+
 ## User-stories:
 1	As a User, I want to see the nearest bakeries, so that I can know where to buy fastelavnsboller
 2	As a User, I want to be able to scroll/browse pictures of fastelavnsboller, so that I can see who bakes them
