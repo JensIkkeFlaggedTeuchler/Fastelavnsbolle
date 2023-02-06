@@ -9,15 +9,15 @@ Det lykkedes ikke at integrere samme view-model som fra undervisningen, så grun
 
 
 ## User-stories:
-- [ ] 1	As a User, I want to see the nearest bakeries, so that I can know where to buy fastelavnsboller
+- [x] 1	As a User, I want to see the nearest bakeries, so that I can know where to buy fastelavnsboller
 - [ ] 2	As a User, I want to be able to scroll/browse pictures of fastelavnsboller, so that I can see who bakes them
-- [ ] 3	As a User, I want directions to a selected bakery, so that I can travel there
+- [x] 3	As a User, I want directions to a selected bakery, so that I can travel there
 - [ ] 4	As a User, I want to see the ratings of the fastelavnsboller, so that I know if they are worth the price
-- [ ] 5	As a User, I want to be able to log in, so that my information is stored
+- [x] 5	As a User, I want to be able to log in, so that my information is stored
 - [ ] 6	As a User, I want to be able to change my user information, so that my e-mail and password is up to date
-- [ ] 7	As a User, I want to easily navigate the application, so that my time is efficiently
-- [ ] 8	As a User, I want to see pictures of fastelavnsboller, so that I get inspired to buy/eat them
+- [x] 7	As a User, I want to easily navigate the application, so that my time is efficiently
+- [x] 8	As a User, I want to see pictures of fastelavnsboller, so that I get inspired to buy/eat them
 - [ ] 9	As a Admin, I want to edit the users, so that I can remove unwanted users and help them edit their information
-- [ ] 10	As the App owner, I want to be able to create admin logins for my staff, so that I can provide the best user experience
-- [ ] 11	As a Admin, I want to be able to add hyped fastelavnsboller into the apps database, so that it can be extracted to something else
+- [x] 10	As the App owner, I want to be able to create admin logins for my staff, so that I can provide the best user experience
+- [x] 11	As a Admin, I want to be able to add hyped fastelavnsboller into the apps database, so that it can be extracted to something else
 - [ ] 12	As a Admin, I want to be able to extract the hyped fastelavnsboller from the database, so that it can be shown in a list to the users, giving them inspiration, munchies and information about the fastelavnsbolle
